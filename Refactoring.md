@@ -9,3 +9,11 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+According to me, the main components of a good code are:
+1. Readability.
+2. Clarity.
+3. Separation of concerns into separate functions.
+Since hashing is something that does not need to be looked at again. We can separate it into a separate function..
+We have provided comments to ensure good understanding of the code in future.
+We have tried to structure the code which makes it more direct and easy to understand without if else conditions that makes it difficult to understand it.
+Have kept te multiple conditions separated instead of clubbing them for better readability.
